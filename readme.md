@@ -16,12 +16,12 @@ project-root/
 ├── go.mod        # Go module definitions
 ├── go.sum        
 └── readme.md     # Instructions to run the program
+```
 
 ## Running the System
 Open three separate terminal windows from the project root and run:
 
 **Terminal 1 (Server):**
-```bash
 go run server/main.go
 
 Terminal 2 (Client 1):
