@@ -17,3 +17,21 @@ project-root/
 ├── go.sum        
 └── readme.md     # Instructions to run the program
 
+## Running the System
+Open three separate terminal windows from the project root and run:
+
+**Terminal 1 (Server):**
+```bash
+go run server/main.go
+
+Terminal 2 (Client 1):
+go run client/main.go -name="Alice"
+
+Terminal 3 (Client 2):
+go run client/main.go -name="Bob"
+
+How to Use
+
+    Send a message: Type your text in a client terminal and press Enter.
+
+    Leave the chat: Press Ctrl+C in a client terminal to disconnect and notify others.
