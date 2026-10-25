@@ -19,6 +19,9 @@ project-root/
 ```
 
 ## Running the System
+Navigate to the root directory of the project and ensure all dependencies are downloaded:
+go mod tidy
+
 Open three separate terminal windows from the project root and run:
 
 **Terminal 1 (Server):**
