@@ -19,12 +19,13 @@ project-root/
 ```
 
 ## Running the System
-Clone the repo to your local machine.
+How to run:
+1. Clone the repo to your local machine.
 
-Navigate to the root directory of the project and ensure all dependencies are downloaded:
+2. Navigate to the root directory of the project and ensure all dependencies are downloaded:
 go mod tidy
 
-To test the system, open three separate terminal windows from the project root and run:
+3. To test the system, open three separate terminal windows from the project root and run:
 
 **Terminal 1 (Server):**
 go run server/main.go
