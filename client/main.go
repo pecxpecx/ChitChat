@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	pb "chitchat/grpc" // Adjust this if your go.mod module name is different
+	pb "chitchat/grpc" 
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
