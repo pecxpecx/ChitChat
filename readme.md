@@ -35,6 +35,6 @@ go run client/main.go -name="Bob"
 
 How to Use
 
-    Send a message: Type your text in a client terminal and press Enter.
+Send a message: Type your text in a client terminal and press Enter.
 
-    Leave the chat: Press Ctrl+C in a client terminal to disconnect and notify others.
+Leave the chat: Press Ctrl+C in a client terminal to disconnect and notify others.
