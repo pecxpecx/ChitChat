@@ -19,6 +19,8 @@ project-root/
 ```
 
 ## Running the System
+Clone the repo to your local machine.
+
 Navigate to the root directory of the project and ensure all dependencies are downloaded:
 go mod tidy
 
@@ -33,7 +35,7 @@ go run client/main.go -name="Alice"
 Terminal 3 (Client 2):
 go run client/main.go -name="Bob"
 
-How to Use
+How to Use:
 
 Send a message: Type your text in a client terminal and press Enter.
 
